@@ -1,0 +1,953 @@
+Core i7-7740X X Series
+Core i5-7640X X Series
+Core i7-7800X X Series
+Core i9-7900X X Series
+Core i7-7820X X Series
+Core i9-7920X X Series
+Core i9-7940X X Series
+Core i9-7960X X Series
+Core i9-7980XE Extreme Edition
+Core i9-9820X X Series
+Core i7-9800X X Series
+Core i9-9960X X Series
+Core i9-9900X X Series
+Core i9-9940X X Series
+Core i9-9980XE Extreme Edition
+Core i9-9920X X Series
+Core i9-10920X X Series
+Core i9-10940X X Series
+Core i9-10980XE Extreme Edition
+Core i9-10900X X Series
+Core i7-3960X Extreme Edition
+Core i7-3930K
+Core i7-3820
+Core i7-3920XM Extreme Edition
+Core i7-3970X Extreme Edition
+Core i7-3940XM Extreme Edition
+Core i7-4930MX Extreme Edition
+Core i7-4960X Extreme Edition
+Core i7-4930K
+Core i7-4820K
+Core i7-4940MX Extreme Edition
+Core i7-5960X Extreme Edition
+Core i7-5930K
+Core i7-5820K
+Core i7-6850K
+Core i7-6800K
+Core i7-6900K
+Core i7-6950X Extreme Edition
+Core i5-L16G7
+Core i3-L13G4
+Core i9-12900K
+Core i9-12900KF
+Core i9-11900
+Core i9-11900F
+Core i9-11900T
+Core i9-11900KF
+Core i9-11900K
+Core i9-11950H
+Core i9-11980HK
+Core i9-11900H
+Core i9-10900T
+Core i9-10900
+Core i9-10900F
+Core i9-10900KF
+Core i9-10900K
+Core i9-10980HK
+Core i9-10885H
+Core i9-10900TE
+Core i9-10900E
+Core i9-10850K
+Core i9-9900K
+Core i9-9900KF
+Core i9-9900T
+Core i9-9900
+Core i9-9900KS
+Core i9-9880H
+Core i9-9980HK
+Core i9-8950HK
+Core i7-12700K
+Core i7-12700KF
+Core i7-11370H
+Core i7-11375H
+Core i7-1185G7E
+Core i7-1185GRE
+Core i7-1160G7
+Core i7-1165G7
+Core i7-1180G7
+Core i7-1185G7
+Core i7-1165G7 (with IPU)
+Core i7-11700K
+Core i7-11700KF
+Core i7-11700T
+Core i7-11700
+Core i7-11700F
+Core i7-11850H
+Core i7-11600H
+Core i7-11800H
+Core i7-1195G7 (with IPU)
+Core i7-11390H
+Core i7-1195G7
+Core i7-11850HE
+Core i7-10710U
+Core i7-10510U
+Core i7-10510Y
+Core i7-1068NG7
+Core i7-1065G7
+Core i7-1060G7
+Core i7-10700T
+Core i7-10700
+Core i7-10700F
+Core i7-10700KF
+Core i7-10700K
+Core i7-10750H
+Core i7-10810U
+Core i7-10610U
+Core i7-10850H
+Core i7-10875H
+Core i7-10700TE
+Core i7-10700E
+Core i7-10870H
+Core i7-9700K
+Core i7-9700KF
+Core i7-9750H
+Core i7-9750HF
+Core i7-9850H
+Core i7-9700T
+Core i7-9700
+Core i7-9700F
+Core i7-9700E
+Core i7-9850HE
+Core i7-9700TE
+Core i7-9850HL
+Core i7-8550U
+Core i7-8650U
+Core i7-8700K
+Core i7-8700
+Core i7-8700T
+Core i7-8706G with Radeon RX Vega M GL Graphics
+Core i7-8709G with Radeon RX Vega M GH Graphics
+Core i7-8809G with Radeon RX Vega M GH Graphics
+Core i7-8705G with Radeon RX Vega M GL Graphics
+Core i7-8850H
+Core i7-8700B
+Core i7-8750H
+Core i7-8559U
+Core i7+8700 Includes Intel Optane Memory
+Core i7-8086K
+Core i7-8706G with Radeon Pro WX Vega M GL Graphics
+Core i7-8565U
+Core i7-8500Y
+Core i7-8569U
+Core i7-8557U
+Core i7-8665UE
+Core i7-8665U
+Core i7-7Y75
+Core i7-7500U
+Core i7-7700T
+Core i7-7820EQ
+Core i7-7700
+Core i7-7700K
+Core i7-7700HQ
+Core i7-7920HQ
+Core i7-7820HK
+Core i7-7600U
+Core i7-7820HQ
+Core i7-7660U
+Core i7-7560U
+Core i7-7567U
+Core i7-6600U
+Core i7-6500U
+Core i7-6700K
+Core i7-6700
+Core i7-6700T
+Core i7-6700TE
+Core i7-6700HQ
+Core i7-6820HK
+Core i7-6820HQ
+Core i7-6920HQ
+Core i7-6820EQ
+Core i7-6822EQ
+Core i7-6560U
+Core i7-6567U
+Core i7-6660U
+Core i7-6650U
+Core i7-6970HQ
+Core i7-6785R
+Core i7-6870HQ
+Core i7-6770HQ
+Core i7-5550U
+Core i7-5557U
+Core i7-5650U
+Core i7-5500U
+Core i7-5600U
+Core i7-5700HQ
+Core i7-5750HQ
+Core i7-5775R
+Core i7-5850HQ
+Core i7-5950HQ
+Core i7-5775C
+Core i7-5700EQ
+Core i7-5850EQ
+Core i7-4550U
+Core i7-4650U
+Core i7-4700HQ
+Core i7-4700MQ
+Core i7-4702HQ
+Core i7-4702MQ
+Core i7-4765T
+Core i7-4770
+Core i7-4770K
+Core i7-4770S
+Core i7-4770T
+Core i7-4800MQ
+Core i7-4900MQ
+Core i7-4500U
+Core i7-4700EQ
+Core i7-4700EC
+Core i7-4702EC
+Core i7-4770TE
+Core i7-4558U
+Core i7-4950HQ
+Core i7-4850HQ
+Core i7-4750HQ
+Core i7-4960HQ
+Core i7-4860HQ
+Core i7-4760HQ
+Core i7-4600M
+Core i7-4600U
+Core i7-4610Y
+Core i7-4770R
+Core i7-4771
+Core i7-4710HQ
+Core i7-4710MQ
+Core i7-4712HQ
+Core i7-4712MQ
+Core i7-4720HQ
+Core i7-4722HQ
+Core i7-4810MQ
+Core i7-4910MQ
+Core i7-4610M
+Core i7-4790
+Core i7-4790K
+Core i7-4790S
+Core i7-4790T
+Core i7-4785T
+Core i7-4510U
+Core i7-4980HQ
+Core i7-4870HQ
+Core i7-4770HQ
+Core i7-4578U
+Core i5-12600K
+Core i5-12600KF
+Core i5-11300H
+Core i5-1145GRE
+Core i5-1145G7E
+Core i5-1130G7
+Core i5-1135G7
+Core i5-1140G7
+Core i5-1145G7
+Core i5-1135G7 (with IPU)
+Core i5-11400
+Core i5-11400F
+Core i5-11500T
+Core i5-11400T
+Core i5-11600
+Core i5-11600K
+Core i5-11600KF
+Core i5-11500
+Core i5-11600T
+Core i5-11500H
+Core i5-11400H
+Core i5-11260H
+Core i5-11320H
+Core i5-1155G7 (with IPU)
+Core i5-1155G7
+Core i5-11500HE
+Core i5-10210U
+Core i5-10310Y
+Core i5-10210Y
+Core i5-1035G4
+Core i5-1035G7
+Core i5-1038NG7
+Core i5-1035G1
+Core i5-1030G7
+Core i5-1030G4
+Core i5-10400
+Core i5-10600
+Core i5-10500T
+Core i5-10400T
+Core i5-10500
+Core i5-10400F
+Core i5-10600T
+Core i5-10600K
+Core i5-10600KF
+Core i5-10300H
+Core i5-10505
+Core i5-10310U
+Core i5-10400H
+Core i5-10500H
+Core i5-10500TE
+Core i5-10500E
+Core i5-10200H
+Core i5-9400T
+Core i5-9500
+Core i5-9600K
+Core i5-9400
+Core i5-9600
+Core i5-9400F
+Core i5-9600KF
+Core i5-9500F
+Core i5-9600T
+Core i5-9500T
+Core i5-9300H
+Core i5-9400H
+Core i5-9300HF
+Core i5-9500E
+Core i5-9500TE
+Core i5-8250U
+Core i5-8350U
+Core i5-8600K
+Core i5-8400
+Core i5-8600
+Core i5-8600T
+Core i5-8500
+Core i5-8400T
+Core i5-8500T
+Core i5-8305G with Radeon RX Vega M GL Graphics
+Core i5-8300H
+Core i5-8400H
+Core i5-8400B
+Core i5-8500B
+Core i5-8259U
+Core i5-8269U
+Core i5+8500 Includes Intel Optane Memory
+Core i5+8400 Includes Intel Optane Memory
+Core i5-8305G with Radeon Pro WX Vega M GL Graphics
+Core i5-8265U
+Core i5-8200Y
+Core i5-8210Y
+Core i5-8257U
+Core i5-8279U
+Core i5-8365U
+Core i5-8365UE
+Core i5-8310Y
+Core i5-8260U
+Core i5-7200U
+Core i5-7Y54
+Core i5-7500T
+Core i5-7500
+Core i5-7600K
+Core i5-7400
+Core i5-7600
+Core i5-7600T
+Core i5-7400T
+Core i5-7300HQ
+Core i5-7440HQ
+Core i5-7Y57
+Core i5-7300U
+Core i5-7440EQ
+Core i5-7267U
+Core i5-7287U
+Core i5-7442EQ
+Core i5-7360U
+Core i5-7260U
+Core i5-6500T
+Core i5-6500
+Core i5-6400
+Core i5-6500TE
+Core i5-6400T
+Core i5-6600
+Core i5-6600T
+Core i5-6300U
+Core i5-6600K
+Core i5-6200U
+Core i5-6300HQ
+Core i5-6440HQ
+Core i5-6440EQ
+Core i5-6442EQ
+Core i5-6360U
+Core i5-6260U
+Core i5-6287U
+Core i5-6267U
+Core i5-6402P
+Core i5-6350HQ
+Core i5-6585R
+Core i5-6685R
+Core i5-5250U
+Core i5-5257U
+Core i5-5287U
+Core i5-5350U
+Core i5-5200U
+Core i5-5300U
+Core i5-5350H
+Core i5-5575R
+Core i5-5675R
+Core i5-5675C
+Core i5-4200H
+Core i5-4250U
+Core i5-4260U
+Core i5-4350U
+Core i5-4360U
+Core i5-4430
+Core i5-4430S
+Core i5-4440
+Core i5-4440S
+Core i5-4570
+Core i5-4570S
+Core i5-4570T
+Core i5-4670
+Core i5-4670K
+Core i5-4670S
+Core i5-4670T
+Core i5-4200U
+Core i5-4570TE
+Core i5-4402EC
+Core i5-4200Y
+Core i5-4258U
+Core i5-4288U
+Core i5-4400E
+Core i5-4402E
+Core i5-4300U
+Core i5-4300M
+Core i5-4200M
+Core i5-4202Y
+Core i5-4210Y
+Core i5-4300Y
+Core i5-4302Y
+Core i5-4570R
+Core i5-4670R
+Core i5-4330M
+Core i5-4460T
+Core i5-4590T
+Core i5-4210H
+Core i5-4410E
+Core i5-4422E
+Core i5-4310U
+Core i5-4340M
+Core i5-4310M
+Core i5-4690
+Core i5-4690K
+Core i5-4690S
+Core i5-4690T
+Core i5-4590
+Core i5-4590S
+Core i5-4460
+Core i5-4460S
+Core i5-4210M
+Core i5-4210U
+Core i5-4220Y
+Core i5-4308U
+Core i5-4278U
+Core i3-1115GRE
+Core i3-1115G4E
+Core i3-1110G4
+Core i3-1115G4
+Core i3-1125G4
+Core i3-1115G4 (with IPU)
+Core i3-1125G4 (with IPU)
+Core i3-1120G4
+Core i3-11100HE
+Core i3-10110U
+Core i3-10110Y
+Core i3-1005G1
+Core i3-1000G1
+Core i3-1000G4
+Core i3-10320
+Core i3-10300
+Core i3-10300T
+Core i3-10100
+Core i3-10100T
+Core i3-10325
+Core i3-10105T
+Core i3-10305
+Core i3-10105
+Core i3-10305T
+Core i3-10100F
+Core i3-10105F
+Core i3-10100E
+Core i3-10100TE
+Core i3-10100Y
+Core i3-9100
+Core i3-9100T
+Core i3-9300T
+Core i3-9300
+Core i3-9350K
+Core i3-9100F
+Core i3-9350KF
+Core i3-9320
+Core i3-9100E
+Core i3-9100HL
+Core i3-9100TE
+Core i3-8100
+Core i3-8350
+Core i3-8300
+Core i3-8300T
+Core i3-8100T
+Core i3-8109U
+Core i3-8130U
+Core i3-8145U
+Core i3-8100H
+Core i3-8100B
+Core i3-8145UE
+Core i3-8140U
+Core i3-7020U
+Core i3-7130U
+Core i3-7100U
+Core i3-7102E
+Core i3-7101TE
+Core i3-7100H
+Core i3-7101E
+Core i3-7100E
+Core i3-7100
+Core i3-7300T
+Core i3-7300
+Core i3-7320
+Core i3-7100T
+Core i3-7350K
+Core i3-7167U
+Core i3-6100U
+Core i3-6100TE
+Core i3-6100H
+Core i3-6100E
+Core i3-6102E
+Core i3-6300T
+Core i3-6100
+Core i3-6300
+Core i3-6320
+Core i3-6100T
+Core i3-6167U
+Core i3-6006U
+Core i3-6098P
+Core i3-6157U
+Core i3-5005U
+Core i3-5010U
+Core i3-5015U
+Core i3-5020U
+Core i3-5157U
+Core i3-4000M
+Core i3-4005M
+Core i3-4010U
+Core i3-4100U
+Core i3-4010Y
+Core i3-4158U
+Core i3-4100E
+Core i3-4102E
+Core i3-4100M
+Core i3-4012Y
+Core i3-4020Y
+Core i3-4130
+Core i3-4130T
+Core i3-4110M
+Core i3-4150
+Core i3-4150T
+Core i3-4160
+Core i3-4160T
+Core i3-4170
+Core i3-4350
+Core i3-4350T
+Core i3-4360
+Core i3-4360T
+Core i3-4370
+Core i3-4330
+Core i3-4330T
+Core i3-4340
+Core i3-4330TE
+Core i3-4110E
+Core i3-4112E
+Core i3-4340TE
+Core i3-4120U
+Core i3-4030U
+Core i3-4025U
+Core i3-4030Y
+Core i3-4370T
+Core i3-4170T
+Core m3-8100Y
+Core m3-7Y30
+Core m3-7Y32
+Core m5-6Y57
+Core m3-6Y30
+Core m7-6Y75
+Core m5-6Y54
+Core M-5Y10
+Core M-5Y10a
+Core M-5Y70
+Core M-5Y31
+Core M-5Y51
+Core M-5Y71
+Core M-5Y10c
+Core Duo L2300
+Core Duo L2400
+Core Duo L2500
+Core Duo T2050
+Core Duo T2250
+Core Duo T2300
+Core Duo T2300E
+Core Duo T2400
+Core Duo T2500
+Core Duo T2600
+Core Duo T2700
+Core Duo U2400
+Core Duo U2500
+Core Solo T1300
+Core Solo T1350
+Core Solo T1400
+Core Solo U1300
+Core Solo U1400
+Core2 Duo E6300
+Core2 Duo E6400
+Core2 Duo E6600
+Core2 Duo E6700
+Core2 Duo T5200
+Core2 Duo T5500
+Core2 Duo T5600
+Core2 Duo T7200
+Core2 Duo T7400
+Core2 Duo T7600
+Core2 X6800 Extreme
+Core Solo U1500
+Core2 Duo E4300
+Core2 Duo L7200
+Core2 Duo L7400
+Core2 QX6700 Extreme
+Core Duo T2350
+Core Duo T2450
+Core2 Duo E4400
+Core2 Duo E6320
+Core2 Duo E6420
+Core2 Duo L7300
+Core2 Duo L7500
+Core2 Duo T5300
+Core2 Duo T7100
+Core2 Duo T7300
+Core2 Duo T7500
+Core2 Duo T7700
+Core2 Duo U7500
+Core2 Duo U7600
+Core2 Quad Q6600
+Core2 QX6800 Extreme
+Core2 Duo E4500
+Core2 Duo E6540
+Core2 Duo E6550
+Core2 Duo E6750
+Core2 Duo E6850
+Core2 Duo T5250
+Core2 Duo T5450
+Core2 X7800 Extreme
+Core2 QX6850 Extreme
+Core2 Quad Q6700
+Core2 Duo T7250
+Core2 Duo T7800
+Core2 X7900 Extreme
+Core2 Duo T5470
+Core2 Solo U2100
+Core2 Solo U2200
+Core2 Duo E4600
+Core2 Duo L7700
+Core2 Duo T5550
+Core2 Duo T5270
+Core2 Duo T8300
+Core2 Duo E8200
+Core2 Duo E8400
+Core2 Duo E8500
+Core2 Duo T5750
+Core2 Duo T8100
+Core2 Duo T9300
+Core2 Duo T9500
+Core2 Duo U7700
+Core2 QX9650 Extreme
+Core2 Quad Q9300
+Core2 Quad Q9450
+Core2 Quad Q9550
+Core2 Duo E4700
+Core2 Duo E8190
+Core2 X9000 Extreme
+Core2 QX9770 Extreme
+Core2 QX9775 Extreme
+Core2 Duo E8300
+Core2 Duo T5670
+Core2 Duo E7200
+Core2 Quad Q9400
+Core2 Quad Q9650
+Core2 X9100 Extreme
+Core2 Duo T9400
+Core2 Duo T9600
+Core2 Duo P9500
+Core2 Duo P8600
+Core2 Duo P8400
+Core2 Duo T5800
+Core2 Duo E8600
+Core2 Duo E7300
+Core2 Duo E7400
+Core2 Duo E7500
+Core2 Quad Q8200
+Core2 Duo SL9300
+Core2 Duo SL9400
+Core2 Duo SP9300
+Core2 Duo SP9400
+Core2 Duo SU9300
+Core2 Duo SU9400
+Core2 QX9300 Extreme
+Core2 Solo ULV SU3300
+Core2 Duo P7450
+Core2 Duo P7350
+Core2 Duo U7500
+Core2 Duo U7600
+Core2 Duo T9800
+Core2 Duo P8700
+Core2 Quad Q9100
+Core2 Duo T5870
+Core2 Duo P7370
+Core2 Duo T9550
+Core2 Solo ULV SU3500
+Core i7-920
+Core i7-940
+Core i7-965 Extreme Edition
+Core i7-950
+Core i7-960
+Core i7-975 Extreme Edition
+Core2 Quad Q9500
+Core2 Duo SL9380
+Core Solo T1250
+Core2 Duo T6600
+Core2 Duo SP9600
+Core2 Duo SL9600
+Core2 Duo SU9600
+Core2 Duo P9600
+Core2 Quad Q8400
+Core2 Quad Q8300
+Core2 Duo T6500
+Core2 Duo T9900
+Core2 Duo P8800
+Core2 Duo T6400
+Core2 Quad Q9000
+Core2 Quad Q9400S
+Core2 Quad Q9550S
+Core2 Quad Q8200S
+Core i7-870
+Core i7-860
+Core i7-860S
+Core i7-930
+Core2 Duo E7600
+Core2 Duo P7550
+Core2 Duo T6670
+Core2 Quad Q8400S
+Core2 Solo SU3500
+Core2 Duo P7570
+Core2 Duo P9700
+Core i5-750
+Core i5-750S
+Core2 Quad Q9505
+Core2 Quad Q9505S
+Core i7-720QM
+Core i7-820QM
+Core i7-840QM
+Core i7-920XM Extreme Edition
+Core i7-940XM Extreme Edition
+Core i3-350M
+Core i5-430M
+Core i5-540M
+Core i5-650
+Core i5-660
+Core i5-661
+Core i5-670
+Core i7-620LM
+Core i7-620M
+Core i7-620UM
+Core i7-640LM
+Core i3-530
+Core i3-540
+Core i5-520M
+Core i5-520UM
+Core i3-330M
+Core i7-640UM
+Core i7-980X Extreme Edition
+Core i7-970
+Core i7-620LE
+Core i7-620UE
+Core i5-520E
+Core i7-610E
+Core i3-330E
+Core i5-760
+Core i7-870S
+Core i7-875K
+Core i7-880
+Core i5-680
+Core i3-550
+Core i5-655K
+Core i3-370M
+Core i3-330UM
+Core i5-450M
+Core i5-430UM
+Core i7-740QM
+Core i7-660UM
+Core i5-540UM
+Core i5-580M
+Core i5-560M
+Core i7-660LM
+Core i7-680UM
+Core i5-560UM
+Core i7-640M
+Core i7-660UE
+Core i5-470UM
+Core i3-380UM
+Core i7-2720QM
+Core i5-2540M
+Core i3-560
+Core i3-380M
+Core i5-460M
+Core i5-2300
+Core i5-2400
+Core i5-2400S
+Core i5-2500
+Core i5-2500K
+Core i5-2500S
+Core i5-2500T
+Core i7-2600
+Core i7-2600K
+Core i7-2600S
+Core i7-2630QM
+Core i7-2310M
+Core i7-2410M
+Core i7-2820QM
+Core i7-2520M
+Core i7-2620M
+Core i7-2920XM Extreme Edition
+Core i7-990X Extreme Edition
+Core i5-480M
+Core i3-390M
+Core i3-2100
+Core i3-2100T
+Core i3-2102
+Core i3-2120
+Core i3-2120T
+Core i3-2130
+Core i3-2312M
+Core i3-2330E
+Core i3-2330M
+Core i3-2350M
+Core i3-2370M
+Core i5-2310
+Core i5-2320
+Core i5-2390T
+Core i5-2430M
+Core i5-2450M
+Core i5-2510E
+Core i7-2635QM
+Core i7-2640M
+Core i7-2670QM
+Core i7-2675QM
+Core i7-2710QE
+Core i7-2760QM
+Core i7-2860QM
+Core i7-2960XM Extreme Edition
+Core i7-2629M
+Core i7-2649M
+Core i7-2657M
+Core i7-2617M
+Core i7-2677M
+Core i7-2637M
+Core i7-2537M
+Core i7-2557M
+Core i7-2357M
+Core i7-2655LE
+Core i3-2310E
+Core i7-2715QE
+Core i7-2610UE
+Core i3-2340UE
+Core i5-2515E
+Core i3-2377M
+Core i5-2405S
+Core i3-2105
+Core i5-2467M
+Core i7-980
+Core i3-2125
+Core i3-2367M
+Core i5-2435M
+Core i7-2700K
+Core i5-2450P
+Core i5-2380P
+Core i7-3820QM
+Core i7-3720QM
+Core i7-3520M
+Core i5-3360M
+Core i5-3320M
+Core i7-3667U
+Core i7-3610QM
+Core i7-3615QM
+Core i7-3612QM
+Core i5-3427U
+Core i5-3330
+Core i5-3330S
+Core i5-3450
+Core i5-3450S
+Core i5-3475S
+Core i5-3550
+Core i5-3550S
+Core i5-3570K
+Core i5-3570T
+Core i7-3770K
+Core i7-3770S
+Core i7-3770T
+Core i5-2550K
+Core i3-3240
+Core i3-3225
+Core i3-3220
+Core i3-3220T
+Core i3-3217UE
+Core i3-3217U
+Core i3-3120ME
+Core i3-3110M
+Core i5-3570S
+Core i5-3570
+Core i5-3470T
+Core i5-3610ME
+Core i5-3317U
+Core i5-3210M
+Core i7-3615QE
+Core i7-3612QE
+Core i7-3610QE
+Core i7-3555LE
+Core i7-3517UE
+Core i7-3517U
+Core i7-3770
+Core i3-3240T
+Core i3-3210M
+Core i7-3612QM
+Core i5-3470S
+Core i5-3470
+Core i3-2115C
+Core i5-3350P
+Core i3-2365M
+Core i7-3840QM
+Core i7-3740QM
+Core i3-2328M
+Core i3-3210
+Core i7-3540M
+Core i5-3380M
+Core i5-3340M
+Core i7-3687U
+Core i5-3437U
+Core i7-3632QM
+Core i7-3630QM
+Core i7-3635QM
+Core i3-3120M
+Core i7-3632QM
+Core i3-3229U
+Core i5-3339Y
+Core i5-3439Y
+Core i7-3689Y
+Core i7-3537U
+Core i5-3337U
+Core i5-3230M
+Core i3-3227U
+Core i3-3130M
+Core i5-3230M
+Core i3-2375M
+Core i3-2348M
+Core i3-3250
+Core i3-3250T
+Core i3-3245
+Core i5-3340
+Core i5-3340S
+Core i3-3115C
