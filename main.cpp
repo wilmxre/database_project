@@ -12,8 +12,7 @@ using namespace std;
 bool isNumber(const string& str);
 int generateRandom(int number);
 string generateProductSeries(int len_alpha1, int len_num, int len_alpha2);
-string generateStorage();
-string generateRam();
+tuple<int, int, string> generateStorage();
 int generatePrice();
 string generateImageFormat();
 
@@ -127,8 +126,11 @@ int main() {
     }
 
     vector<string> laptop_names;
+    map<int, string> brands;
+    int key_brands = 1;
     while (getline(inptr_laptops, line)) {
         laptop_names.push_back(line);
+        brands.insert(make_pair(key_brands++, line));
     }
 
     //------------------------------------
@@ -185,7 +187,13 @@ int main() {
     cout << "enter number of iteration!\n\tn:: ";
     cin >> nr_of_it;
 
-    vector <string> img_ids;
+    vector<string> img_ids;
+    vector<int> random_brands;
+    vector<int> random_processors;
+    vector<int> random_gpus;
+    vector<int> random_rams;
+    vector<int> ram_size = { 1, 2, 4, 8, 12, 16, 24, 32, 48, 64 };
+    vector<pair<int, int>> ind_pair;
     string img_id;
 
     //--------------------GENERATE PRODUCTS--------------------
@@ -199,28 +207,93 @@ int main() {
         }
 
         outptr << ")\nVALUES (";
+
         outptr << to_string(i) << ", ";
-        laptop_name += laptop_names.at(generateRandom(laptop_names.size()));
+
+//        laptop_name += laptop_names.at(generateRandom(laptop_names.size()));
+
+        //-----INSERT PRODUCT NAME
+        int rand_brand_ind;
+        rand_brand_ind = generateRandom(brands.size()) + 1;
+        random_brands.push_back(rand_brand_ind);
+
+        laptop_name += brands[rand_brand_ind];
         laptop_series += generateProductSeries(1, 3, 2);
         outptr << "'Laptop " + laptop_name + " " + laptop_series << "', ";
-        outptr << "'This laptop comes with an Intel " + laptop_processors.at(generateRandom(laptop_processors.size())) << " processor, a storage of " << generateStorage() << ", " << generateRam() << " and an ";
-        outptr << laptop_gpus.at(generateRandom(laptop_gpus.size())) << " graphics card', ";
+
+        //-----INSERT PROCESSOR
+        int rand_proc_ind = generateRandom(processors.size());
+        random_processors.push_back(rand_proc_ind);
+        outptr << "'This laptop comes with an Intel " + processors.at(rand_proc_ind) << " processor, ";
+
+        //-----INSERT STORAGE
+
+        auto tup = generateStorage();
+        outptr << "a storage of " << get<2>(tup) << ", ";
+        ind_pair.emplace_back(get<0>(tup) + 1, get<1>(tup) + 1);
+
+        //-----INSERT RAM
+        int rand_ram_ind = generateRandom(ram_size.size());
+        random_rams.push_back(rand_ram_ind);
+        outptr << to_string(ram_size.at(rand_ram_ind)) << "GB Ram and an ";
+
+        //-----INSERT GPU
+        int rand_gpu_ind = generateRandom(laptop_gpus.size());
+        random_gpus.push_back(rand_gpu_ind);
+        outptr << laptop_gpus.at(rand_gpu_ind) << " graphics card', ";
+
+        //-----INSERT PRICE
         outptr << to_string(generatePrice() - 1) + ".99" << ", ";
         outptr << to_string(generateRandom(250)) << ", ";
+
+        //-----CREATE IMAGE FORMAT
         transform(laptop_name.begin(), laptop_name.end(), laptop_name.begin(), [](unsigned char c) {return tolower(c); });
         transform(laptop_series.begin(), laptop_series.end(), laptop_series.begin(), [](unsigned char c) {return tolower(c); });
         laptop_name.erase(remove_if(laptop_name.begin(), laptop_name.end(), ::isspace), laptop_name.end());
         img_id += laptop_name + laptop_series + generateImageFormat();
         img_ids.push_back(img_id);
+
+
         outptr << "'" << img_id << "'";
         outptr << ");" << endl << endl;
 
         laptop_name = "";
         laptop_series = "";
         img_id = "";
-
     }
 
+    //-----TEST CODE SNIPPETS HERE:
+
+    /*for (auto & i : ind_pair) {
+        cout << i.first + 1 << " " << i.second + 1<< endl;
+    }*/
+
+
+
+    //------------------GENERATE COMPONENTS------------------
+
+    ofstream outptr_components;
+    outptr_components.open("output_components");
+
+      for (auto i = 0; i < nr_of_it; i++) {
+        outptr_components << "INSERT INTO COMPONENTS(ID, PRODUCT_ID, PROCESSOR_ID, GPU_ID, RAM_ID, STORAGE_ID)\nVALUES(";
+        outptr_components << to_string(i + 1) << ", " << to_string(i + 1) << ", ";
+        outptr_components << random_processors.at(i) << ", ";
+        outptr_components << random_gpus.at(i) + 1 << ", ";
+        outptr_components << random_rams.at(i) + 1 << ", ";
+
+        if (ind_pair.at(i).second % 2 == 0) {
+            outptr_components << ind_pair.at(i).first * 2;
+        }
+        else {
+            outptr_components << ind_pair.at(i).first * 2 - 1;
+        }
+
+        outptr_components << ");\n\n";
+    }
+
+
+    outptr_components.close();
 
     //----------------GENERATE PRODUCT IMAGES----------------
 
@@ -308,7 +381,7 @@ int main() {
         outptr_cat << to_string(i + 1) << ", ";
         outptr_cat << to_string(i + 1) << ", ";
 
-        outptr_cat << 1;
+        outptr_cat << random_brands.at(i);
 
         outptr_cat << ");" << endl << endl;
 
@@ -317,9 +390,9 @@ int main() {
     }
 
 
-    /*//------------GENERATE CPU------------
+    //------------GENERATE CPU------------
 
-    ofstream outptr_cpu;
+    /*ofstream outptr_cpu;
     outptr_cpu.open("output_processor");
 
 
@@ -385,6 +458,20 @@ int main() {
 
     outptr_storage.close();*/
 
+    //------------GENERATE BRANDS------------
+
+    /*ofstream outptr_brands;
+    outptr_brands.open("output_brands");
+
+
+    for (auto & brand : brands) {
+        outptr_brands << "INSERT INTO BRANDS(ID, NAME)\nVALUES(";
+        outptr_brands << brand.first << ", '" << brand.second << "');\n\n";
+    }
+
+
+    outptr_brands.close();*/
+
     outptr.close();
     outptr_img.close();
     outptr_cat.close();
@@ -394,6 +481,7 @@ int main() {
     inptr_laptops.close();
     inptr_laptop_processors.close();
     inptr_laptop_gpus.close();
+
     return 0;
 }
 
@@ -435,15 +523,21 @@ string generateProductSeries(int len_alpha1, int len_num, int len_alpha2) {
     return s;
 }
 
-string generateStorage() {
-    string s;
+tuple<int, int, string> generateStorage() {
+
+    map<int, string> storage;
 
     string storage_type[2] = { "HDD", "SSD" };
     float storage_size[9] = { 128, 240, 256, 500, 512, 1, 1.5, 2, 2.5 };
 
     float size;
+    int ind_size;
+    int ind_type;
+    string s;
 
-    size = storage_size[rand() % 9];
+    ind_size = rand() % 9;
+
+    size = storage_size[ind_size];
 
     string temp = to_string(size);
 
@@ -464,21 +558,11 @@ string generateStorage() {
     }
 
     s += " ";
-    s += storage_type[rand() % 2];
+    ind_type = rand() % 2;
+    s += storage_type[ind_type];
 
-    return s;
+    return make_tuple(ind_size, ind_type, s);
 
-}
-
-string generateRam() {
-    string s;
-
-    int ram_size[10] = {1, 2, 4, 8, 12, 16, 24, 32, 48, 64};
-
-    s += to_string(ram_size[rand() % 7]);
-    s += "GB Ram";
-
-    return s;
 }
 
 int generatePrice() {
@@ -493,7 +577,7 @@ int generatePrice() {
 }
 
 string generateImageFormat() {
-    string s = "";
+    string s;
 
     string img_formats[4] = { ".jpg", ".png", ".jpeg", ".gif"};
 
