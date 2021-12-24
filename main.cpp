@@ -345,6 +345,45 @@ int main() {
 
     outptr_gpu.close();*/
 
+    //------------GENERATE RAM------------
+
+    /*ofstream outptr_ram;
+    outptr_ram.open("output_ram");
+
+    vector<int> temporary_ram = {1, 2, 4, 8, 12, 16, 24, 32, 48, 64};
+
+    int counter_ram = 1;
+    for (auto i : temporary_ram) {
+       outptr_ram << "INSERT INTO RAM(ID, NAME)\nVALUES(";
+       outptr_ram << counter_ram++ << ", '" << i << "GB');\n\n";
+    }
+
+    outptr_ram.close();*/
+
+    //------------GENERATE STORAGE------------
+
+    /*ofstream outptr_storage;
+    outptr_storage.open("output_storage");
+
+    vector<float> temporary_storage = {128, 240, 256, 500, 512, 1, 1.5, 2, 2.5};
+    vector<string> temporary_storage_type = { "HDD", "SSD" };
+
+    int counter_storage = 1;
+    for (float i : temporary_storage) {
+        for (auto & j : temporary_storage_type) {
+            outptr_storage << "INSERT INTO STORAGE(ID, NAME)\nVALUES(";
+            outptr_storage << counter_storage++ << ", '" << i;
+            if (i > 3) {
+                outptr_storage << "GB ";
+            }
+            else {
+                outptr_storage << "TB ";
+            }
+            outptr_storage << j << "');\n\n";
+        }
+    }
+
+    outptr_storage.close();*/
 
     outptr.close();
     outptr_img.close();
@@ -434,7 +473,7 @@ string generateStorage() {
 string generateRam() {
     string s;
 
-    int ram_size[7] = {4, 8, 12, 16, 24, 32, 64};
+    int ram_size[10] = {1, 2, 4, 8, 12, 16, 24, 32, 48, 64};
 
     s += to_string(ram_size[rand() % 7]);
     s += "GB Ram";
