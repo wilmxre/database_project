@@ -5,6 +5,7 @@
 #include <vector>
 #include <ctime>
 #include <algorithm>
+#include <map>
 
 using namespace std;
 
@@ -143,9 +144,17 @@ int main() {
     }
 
     vector<string> laptop_processors;
+    map <int, string> processors;
+    int key_proc = 1;
     while (getline(inptr_laptop_processors, line)) {
         laptop_processors.push_back(line);
+        processors.insert(make_pair(key_proc++, line));
     }
+
+   /* for (auto i = processors.begin(); i != processors.end(); i++) {
+        cout << i->first << " " << i->second;
+        cout << endl;
+    }*/
 
     //------------------------------------
 
@@ -160,8 +169,11 @@ int main() {
     }
 
     vector<string> laptop_gpus;
+    map<int, string> gpus;
+    int key_gpu = 1;
     while (getline(inptr_laptop_gpus, line)) {
         laptop_gpus.push_back(line);
+        gpus.insert(make_pair(key_gpu++, line));
     }
 
     //------------------------------------
@@ -303,6 +315,35 @@ int main() {
         img_id = "";
 
     }
+
+
+    /*//------------GENERATE CPU------------
+
+    ofstream outptr_cpu;
+    outptr_cpu.open("output_processor");
+
+
+    for (auto & processor : processors) {
+        outptr_cpu << "INSERT INTO PROCESSOR(ID, NAME)\nVALUES(";
+        outptr_cpu << processor.first << ", '" << processor.second << "');\n\n";
+    }
+
+
+    outptr_cpu.close();*/
+
+    //------------GENERATE GPU------------
+
+   /* ofstream outptr_gpu;
+    outptr_gpu.open("output_gpu");
+
+
+    for (auto & gpu : gpus) {
+        outptr_gpu << "INSERT INTO GPU(ID, NAME)\nVALUES(";
+        outptr_gpu << gpu.first << ", '" << gpu.second << "');\n\n";
+    }
+
+
+    outptr_gpu.close();*/
 
 
     outptr.close();
