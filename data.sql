@@ -22237,3 +22237,4 @@ VALUES(649, 'gordon_marcellus@gmail.com', '2F0qmkNsm=OBk}Fg', 'Marcellus', 'Gord
 
 INSERT INTO ACCOUNTS(ID, EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, PHONE_NUMBER)
 VALUES(650, 'karan.doreen@yahoo.com', '5Rhb|+2dmDSg,Wz+', 'Doreen', 'Karan', 9345564552);
+
